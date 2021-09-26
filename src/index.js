@@ -4,6 +4,7 @@ import './index.css';
 //import createClass from 'create-react-class';
 //var createClass = require('react')
 //import createClass from 'react';
+import './index.js';
 var createClass = require('create-react-class');
 
 var calculatePayment = function(principal, years, rate){
