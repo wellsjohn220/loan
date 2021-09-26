@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//var createClass = require('create-react-class');
 //import createClass from 'create-react-class';
-import createClass from 'react';
+var createClass = require('create-react-class');
+//var createClass = require('react')
+//import createClass from 'react';
 
 var calculatePayment = function(principal, years, rate){
   var monthlyRate = rate/100/12;
